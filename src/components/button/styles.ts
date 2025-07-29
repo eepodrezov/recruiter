@@ -1,0 +1,1 @@
+export const PRIMARY_BUTTON_STYLES = "rounded-lg border border-transparent px-5 py-2 text-base font-medium bg-[#1a1a1a] cursor-pointer transition-colors duration-200 hover:border-gray-500"
