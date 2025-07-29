@@ -79,21 +79,21 @@ export const QuestionView: FC<QuestionViewProps> = ({ question }) => {
     return <Plug />;
   }
 
-  return (
-    <div className="relative flex items-center justify-center min-h-screen px-4 bg-gray-100">
-      <button
-        onClick={handleReset}
-        className="absolute top-4 right-4 bg-gray-300 hover:bg-gray-400 font-semibold py-1 px-4 rounded text-white"
-      >
-        Сброс
-      </button>
+return (
+  <div className="relative flex items-center justify-center w-screen h-screen bg-gray-100">
+    <button
+      onClick={handleReset}
+      className="absolute top-4 right-4 bg-gray-500 hover:bg-gray-600 font-semibold py-1 px-4 rounded text-white"
+    >
+      Сброс
+    </button>
 
-      <div className="bg-white shadow-xl rounded-2xl p-6 max-w-xl w-full text-center">
-        <h1 className="text-2xl font-semibold text-gray-800 mb-6">
-          {question.question}
-        </h1>
-        {action}
-      </div>
+    <div className="bg-white shadow-xl rounded-2xl p-6 max-w-xl w-full text-center mx-4">
+      <h1 className="text-2xl font-semibold text-gray-800 mb-6">
+        {question.question}
+      </h1>
+      {action}
     </div>
-  );
+  </div>
+);
 };
