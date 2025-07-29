@@ -89,7 +89,7 @@ return (
     </button>
 
     <div className="bg-white shadow-xl rounded-2xl p-6 max-w-xl w-full text-center mx-4">
-      <h1 className="text-2xl font-semibold text-gray-800 mb-6">
+      <h1 className="text-lg text-gray-700 mb-6">
         {question.question}
       </h1>
       {action}
