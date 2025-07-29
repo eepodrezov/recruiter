@@ -13,7 +13,7 @@ export default function Home() {
     <div className="flex items-center justify-center h-screen w-screen bg-gray-100">
       <div className="bg-white shadow-xl rounded-2xl p-6 max-w-xl w-full text-center mx-4">
         <h1 className="text-xl font-semibold text-gray-800 mb-6">
-          Потренируемся
+          Тренируемся?
         </h1>
         <button
           onClick={handleStart}
